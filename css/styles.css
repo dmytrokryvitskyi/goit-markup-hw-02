@@ -41,6 +41,7 @@
 .link.current {
   color: #2196f3;
 }
+
 /*Стилізвція контактів хедера (пошта, тел)*/
 .contacts .mail-phone {
   color: #757575;
@@ -55,7 +56,26 @@
 /*Стилізвція основної частини з секціями*/
 
 /*Стилізвція Героя */
-
 .hero-title {
   color: #ffffff;
+}
+
+/*Стилізвція Секцій */
+.section-title {
+  color: #212121;
+}
+
+.subject {
+  color: #212121;
+}
+
+/*Стилізвція Контактів Футера */
+.footer-contacts .address-mail-phone {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-contacts .address-mail-phone:hover,
+.footer-contacts .address-mail-phone:focus {
+  color: #2196f3;
 }
