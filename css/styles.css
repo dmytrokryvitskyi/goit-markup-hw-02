@@ -70,12 +70,12 @@
 }
 
 /*Стилізвція Контактів Футера */
-.footer-contacts .address-mail-phone {
+.contact .address {
   color: #ffffff;
   text-decoration: none;
 }
 
-.footer-contacts .address-mail-phone:hover,
-.footer-contacts .address-mail-phone:focus {
-  color: #2196f3;
+.contact .contact-content {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
