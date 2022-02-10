@@ -23,10 +23,42 @@
 }
 
 /*Стилізвція хедера (шапки навігації)*/
-.header-site-nav {
+.site-nav-link {
   list-style: none;
 }
 
-.header-contacts {
+.link {
+  color: #212121;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
+/*Стилізвція контактів хедера (пошта, тел)*/
+.contacts {
   list-style: none;
+}
+
+.mail-phone {
+  color: #757575;
+}
+
+.mail-phone:hover,
+.mail-phone:focus {
+  color: #2196f3;
+}
+
+/*Стилізвція основної частини з секціями*/
+
+/*Стилізвція Героя и*/
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: #ffffff;
 }
