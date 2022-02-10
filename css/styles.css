@@ -1,15 +1,20 @@
-/*Основна палітра кольорів  #212121*/
+/*Палітра кольорів*/
 
-/*Другорядна палітра кольорів #757575*/
-
+/*Колір заголовіків  #212121*/
+/*Колір абзаців (другорядний)  #757575;*/
 /*Коліп підсвітки другорядний (синій) #2196F3*/
-
 /*Коліп білий #FFFFFF*/
+/* Колір фону #E5E5E5*/
+/* Колір фону (другорядний) #F5F4FA;*/
 
 /*Загальна стилізація сторінки*/
 .page {
   background-color: #e5e5e5;
   color: #757575;
+}
+
+.list {
+  list-style: none;
 }
 
 /*Стилізвція лого*/
@@ -23,41 +28,33 @@
 }
 
 /*Стилізвція хедера (шапки навігації)*/
-.site-nav-link {
-  list-style: none;
-}
-
-.link {
+.site-nav .link {
   color: #212121;
   text-decoration: none;
 }
 
-.link:hover,
-.link:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: #2196f3;
 }
 
+.link.current {
+  color: #2196f3;
+}
 /*Стилізвція контактів хедера (пошта, тел)*/
-.contacts {
-  list-style: none;
-}
-
-.mail-phone {
+.contacts .mail-phone {
   color: #757575;
+  text-decoration: none;
 }
 
-.mail-phone:hover,
-.mail-phone:focus {
+.contacts .mail-phone:hover,
+.contacts .mail-phone:focus {
   color: #2196f3;
 }
 
 /*Стилізвція основної частини з секціями*/
 
-/*Стилізвція Героя и*/
-
-.hero {
-  background-color: #2f303a;
-}
+/*Стилізвція Героя */
 
 .hero-title {
   color: #ffffff;
