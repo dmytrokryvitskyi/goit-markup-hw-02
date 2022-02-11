@@ -18,6 +18,11 @@
   list-style: none;
 }
 
+/* Стилізація хедера*/
+.page-header {
+  background-color: #ffffff;
+}
+
 /*Стилізвція лого*/
 .header-logo {
   color: #212121;
@@ -32,13 +37,14 @@
   color: #2196f3;
 }
 
-/*Стилізвція хедера (шапки навігації)*/
+/*Стилізвція навігації*/
 .site-nav .link {
   color: #212121;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -46,18 +52,14 @@
   color: #2196f3;
 }
 
-.link.current {
-  color: #2196f3;
-}
-
-/*Стилізвція контактів хедера (пошта, тел)*/
+/*Стилізвція контактів в хедері (пошта, тел)*/
 .contacts .mail-phone {
   color: #757575;
   text-decoration: none;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .contacts .mail-phone:hover,
@@ -65,23 +67,102 @@
   color: #2196f3;
 }
 
-/*Стилізвція основної частини з секціями*/
+/*Стилізвція основної частини (Секцій)*/
 
-/*Стилізвція Героя */
+/*Стилізвція Герой */
+.hero {
+  background-color: #2f303a;
+}
+
 .hero-title {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-/*Стилізвція Секцій */
-.section-title {
+.hero-button {
+  background: #2196f3;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/*Стилізвція секції Наши преимущества */
+.advantages-title {
   color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
-.subject {
+.advantages-subject {
   color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
-/*Стилізвція Контактів Футера */
+/*Стилізвція секції Чем мы занимаемся */
+.activity-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+/*Стилізвція секції Наша команда */
+.team {
+  background: #f5f4fa;
+}
+.team-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.team-name {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/*Стилізвція Підвалу */
+.page-footer {
+  background: #2f303a;
+}
+.footer-logo {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
 .contact .address {
   color: #ffffff;
   text-decoration: none;
