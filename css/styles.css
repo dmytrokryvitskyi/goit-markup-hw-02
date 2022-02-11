@@ -15,6 +15,7 @@ body {
 }
 :root {
   --main-black: #212121;
+  --highlight-color: #2196f3;
 }
 .list {
   list-style: none;
@@ -36,7 +37,7 @@ body {
 }
 
 .logo-blue {
-  color: #2196f3;
+  color: var(--highlight-color);
 }
 
 /*Стилізвція навігації*/
@@ -51,7 +52,7 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--highlight-color);
 }
 
 /*Стилізвція контактів в хедері (пошта, тел)*/
@@ -66,7 +67,7 @@ body {
 
 .contacts .mail-phone:hover,
 .contacts .mail-phone:focus {
-  color: #2196f3;
+  color: var(--highlight-color);
 }
 
 /*Стилізвція основної частини (Секцій)*/
@@ -87,7 +88,7 @@ body {
 }
 
 .hero-button {
-  background-color: #2196f3;
+  background-color: var(--highlight-color);
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
@@ -102,7 +103,7 @@ body {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #ffffff;
-  color: #2196f3;
+  color: var(--highlight-color);
 }
 
 /*Стилізвція секції Наши преимущества */
@@ -180,7 +181,7 @@ body {
 
 .contact .address:hover,
 .contact .address:focus {
-  color: #2196f3;
+  color: var(--highlight-color);
 }
 
 .contact .contact-content {
@@ -191,7 +192,7 @@ body {
 
 .contact .contact-content:hover,
 .contact .contact-content:focus {
-  color: #2196f3;
+  color: var(--highlight-color);
 }
 
 /* Стилізація СТОРІНКИ ПОРТФОЛІО */
@@ -211,7 +212,7 @@ body {
 
 .button-list .button:hover,
 .button-list .button:focus {
-  background-color: #2196f3;
+  background-color: var(--highlight-color);
   color: #ffffff;
   cursor: pointer;
 }
