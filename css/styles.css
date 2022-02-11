@@ -8,12 +8,14 @@
 /* Колір фону (другорядний) #F5F4FA;*/
 
 /*Загальна стилізація сторінки*/
-.page {
+body {
   background-color: #e5e5e5;
   color: #757575;
   font-family: Roboto, sans-serif;
 }
-
+:root {
+  --main-black: #212121;
+}
 .list {
   list-style: none;
 }
@@ -25,7 +27,7 @@
 
 /*Стилізвція лого*/
 .header-logo {
-  color: #212121;
+  color: var(--main-black);
   text-decoration: none;
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -39,7 +41,7 @@
 
 /*Стилізвція навігації*/
 .site-nav .link {
-  color: #212121;
+  color: var(--main-black);
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -85,7 +87,7 @@
 }
 
 .hero-button {
-  background: #2196f3;
+  background-color: #2196f3;
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
@@ -94,11 +96,18 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #ffffff;
+  color: #2196f3;
 }
 
 /*Стилізвція секції Наши преимущества */
 .advantages-title {
-  color: #212121;
+  color: var(--main-black);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -106,7 +115,7 @@
 }
 
 .advantages-subject {
-  color: #212121;
+  color: var(--main-black);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -116,7 +125,7 @@
 
 /*Стилізвція секції Чем мы занимаемся */
 .activity-title {
-  color: #212121;
+  color: var(--main-black);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -136,7 +145,7 @@
 }
 
 .team-name {
-  color: #212121;
+  color: var(--main-black);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -164,13 +173,59 @@
 }
 
 .contact .address {
+  font-style: normal;
   color: #ffffff;
   text-decoration: none;
 }
 
+.contact .address:hover,
+.contact .address:focus {
+  color: #2196f3;
+}
+
 .contact .contact-content {
+  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 
+.contact .contact-content:hover,
+.contact .contact-content:focus {
+  color: #2196f3;
+}
+
 /* Стилізація СТОРІНКИ ПОРТФОЛІО */
+
+.page {
+  background-color: #e5e5e5;
+}
+
+.button-list .button {
+  background-color: #f5f4fa;
+  color: var(--main-black);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.button-list .button:hover,
+.button-list .button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.examples .example-title {
+  color: var(--main-black);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.examples .example-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
