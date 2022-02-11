@@ -11,6 +11,7 @@
 .page {
   background-color: #e5e5e5;
   color: #757575;
+  font-family: Roboto, sans-serif;
 }
 
 .list {
@@ -21,6 +22,10 @@
 .header-logo {
   color: #212121;
   text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .logo-blue {
@@ -31,6 +36,9 @@
 .site-nav .link {
   color: #212121;
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .site-nav .link:hover,
@@ -46,6 +54,10 @@
 .contacts .mail-phone {
   color: #757575;
   text-decoration: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .contacts .mail-phone:hover,
