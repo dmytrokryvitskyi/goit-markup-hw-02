@@ -1,29 +1,19 @@
-/*Палітра кольорів*/
-
-/*Колір заголовіків  #212121*/
-/*Колір абзаців (другорядний)  #757575;*/
-/*Коліп підсвітки другорядний (синій) #2196F3*/
-/*Коліп білий #FFFFFF*/
-/* Колір фону #E5E5E5*/
-/* Колір фону (другорядний) #F5F4FA;*/
-
-/*Загальна стилізація сторінки*/
-body {
-  background-color: #e5e5e5;
-  color: #757575;
-  font-family: Roboto, sans-serif;
-}
 :root {
   --main-black: #212121;
   --highlight-color: #2196f3;
-}
-.list {
-  list-style: none;
+  --white-color: #ffffff;
+  --main-text-color: #757575;
 }
 
-/* Стилізація хедера*/
-.page-header {
-  background-color: #ffffff;
+/*Загальна стилізація сторінки*/
+body {
+  background-color: var(--white-color);
+  color: var(--main-text-color);
+  font-family: Roboto, sans-serif;
+}
+
+.list {
+  list-style: none;
 }
 
 /*Стилізвція лого*/
@@ -57,7 +47,7 @@ body {
 
 /*Стилізвція контактів в хедері (пошта, тел)*/
 .contacts .mail-phone {
-  color: #757575;
+  color: var(--main-text-color);
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -78,7 +68,7 @@ body {
 }
 
 .hero-title {
-  color: #ffffff;
+  color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -89,7 +79,7 @@ body {
 
 .hero-button {
   background-color: var(--highlight-color);
-  color: #ffffff;
+  color: var(--white-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -102,7 +92,7 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #ffffff;
+  background-color: var(--white-color);
   color: var(--highlight-color);
 }
 
@@ -124,6 +114,12 @@ body {
   letter-spacing: 0.03em;
 }
 
+.advantages-item {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
 /*Стилізвція секції Чем мы занимаемся */
 .activity-title {
   color: var(--main-black);
@@ -135,10 +131,10 @@ body {
 
 /*Стилізвція секції Наша команда */
 .team {
-  background: #f5f4fa;
+  background-color: #f5f4fa;
 }
 .team-title {
-  color: #212121;
+  color: var(--main-black);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -154,7 +150,6 @@ body {
 }
 
 .team-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -162,10 +157,11 @@ body {
 
 /*Стилізвція Підвалу */
 .page-footer {
-  background: #2f303a;
+  background-color: #2f303a;
 }
+
 .footer-logo {
-  color: #ffffff;
+  color: var(--white-color);
   text-decoration: none;
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -175,8 +171,11 @@ body {
 
 .contact .address {
   font-style: normal;
-  color: #ffffff;
+  color: var(--white-color);
   text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .contact .address:hover,
@@ -188,6 +187,9 @@ body {
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .contact .contact-content:hover,
@@ -196,10 +198,6 @@ body {
 }
 
 /* Стилізація СТОРІНКИ ПОРТФОЛІО */
-
-.page {
-  background-color: #e5e5e5;
-}
 
 .button-list .button {
   background-color: #f5f4fa;
@@ -213,7 +211,7 @@ body {
 .button-list .button:hover,
 .button-list .button:focus {
   background-color: var(--highlight-color);
-  color: #ffffff;
+  color: var(--white-color);
   cursor: pointer;
 }
 
